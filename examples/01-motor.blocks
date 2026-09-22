@@ -1,0 +1,39 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+<block id="Vk|2YS8~MO/u/!?|p7`f" type="device_button_event">
+<field name="NAME">Button.A</field>
+<statement name="HANDLER">
+<block id="m;%hhcmpHPto.u4b10uD" type="stelr_ev_MotorRun">
+<field name="index">stelrEV.Motors.M1</field>
+<field name="direction">stelrEV.Dir.CW</field>
+<value name="speed">
+<shadow type="math_number_minmax">
+<mutation min="0" max="255" label="Speed" />
+<field name="SLIDER">80</field>
+</shadow>
+</value>
+<next>
+<block id="q(XU;Q]|:0sV`udYb}j-" type="device_pause">
+<value name="pause">
+<shadow type="timePicker">
+<field name="ms">500</field>
+</shadow>
+</value>
+<next>
+<block id="6tef]Sms1tw,X;6(QFP_" type="stelr_ev_motorStop">
+<field name="index">stelrEV.Motors.M1</field>
+</block>
+</next>
+</block>
+</next>
+</block>
+</statement>
+<comment pinned="false">Robot&#58; raise the wheels before testing. A runs M1 briefly&#59; B stops all motors.</comment>
+</block>
+<block id="Gux!lmXzeh*U=fw@4u*d" type="device_button_event">
+<field name="NAME">Button.B</field>
+<statement name="HANDLER">
+<block id="kz,tErpXCI0Xg{l;I=TF" type="stelr_ev_motorStopAll">
+</block>
+</statement>
+</block>
+</xml>

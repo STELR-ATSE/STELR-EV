@@ -1,0 +1,42 @@
+[
+  {
+    "name": "test",
+    "success": true,
+    "blocks": true,
+    "pythonRoundTrip": true,
+    "pythonToBlocks": true,
+    "metrics": "; Interface tables: 0/0 (NaN%)\n; Virtual methods: 0 / 0\n; generated code sizes (bytes): 14316 (incl. 13012 user, 1082 helpers, 14 vtables, 208 lits); src size 0\n; assembly: 11259 lines; density: 21.58 bytes/stmt; (603 stmts)\n; total bytes: 230380 (94.9% of 237.0k flash with 12308 free)\n; peep hole pass: 285 instructions removed and 430 updated"
+  },
+  {
+    "name": "01-motor",
+    "success": true,
+    "blocks": true,
+    "pythonRoundTrip": true,
+    "pythonToBlocks": true,
+    "metrics": "; Interface tables: 0/0 (NaN%)\n; Virtual methods: 0 / 0\n; generated code sizes (bytes): 4272 (incl. 3280 user, 948 helpers, 12 vtables, 32 lits); src size 0\n; assembly: 3265 lines; density: 43.73 bytes/stmt; (75 stmts)\n; total bytes: 220336 (90.8% of 237.0k flash with 22352 free)\n; peep hole pass: 59 instructions removed and 95 updated"
+  },
+  {
+    "name": "02-gamepad",
+    "success": true,
+    "blocks": true,
+    "pythonRoundTrip": true,
+    "pythonToBlocks": true,
+    "metrics": "; Interface tables: 0/0 (NaN%)\n; Virtual methods: 0 / 0\n; generated code sizes (bytes): 4212 (incl. 3264 user, 896 helpers, 12 vtables, 40 lits); src size 0\n; assembly: 3280 lines; density: 36.67 bytes/stmt; (89 stmts)\n; total bytes: 220276 (90.8% of 237.0k flash with 22412 free)\n; peep hole pass: 75 instructions removed and 111 updated"
+  },
+  {
+    "name": "03-distance",
+    "success": true,
+    "blocks": true,
+    "pythonRoundTrip": true,
+    "pythonToBlocks": true,
+    "metrics": "; Interface tables: 0/0 (NaN%)\n; Virtual methods: 0 / 0\n; generated code sizes (bytes): 7356 (incl. 6138 user, 962 helpers, 12 vtables, 244 lits); src size 0\n; assembly: 5708 lines; density: 20.67 bytes/stmt; (297 stmts)\n; total bytes: 223420 (92.1% of 237.0k flash with 19268 free)\n; peep hole pass: 104 instructions removed and 220 updated"
+  },
+  {
+    "name": "04-line-inputs",
+    "success": true,
+    "blocks": true,
+    "pythonRoundTrip": true,
+    "pythonToBlocks": true,
+    "metrics": "; Interface tables: 0/0 (NaN%)\n; Virtual methods: 0 / 0\n; generated code sizes (bytes): 2824 (incl. 1928 user, 784 helpers, 12 vtables, 100 lits); src size 0\n; assembly: 1974 lines; density: 91.81 bytes/stmt; (21 stmts)\n; total bytes: 218888 (90.2% of 237.0k flash with 23800 free)\n; peep hole pass: 35 instructions removed and 38 updated"
+  }
+]

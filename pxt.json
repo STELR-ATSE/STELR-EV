@@ -1,0 +1,22 @@
+{
+  "name": "stelr-ev",
+  "version": "0.1.0",
+  "description": "Basic hardware blocks for the STELR EV school kit: motor driver, GamePad V4 and dual VL53L0X distance sensors.",
+  "license": "LGPL-3.0-or-later",
+  "dependencies": {
+    "core": "*"
+  },
+  "files": [
+    "motors.ts",
+    "gamepad.ts",
+    "distance.ts",
+    "README.md"
+  ],
+  "testFiles": [
+    "test.ts"
+  ],
+  "supportedTargets": [
+    "microbit"
+  ],
+  "preferredEditor": "tsprj"
+}

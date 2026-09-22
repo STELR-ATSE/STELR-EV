@@ -1,0 +1,71 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+<block id="qtJ2eU7WplC{)dE*DF];" type="device_forever">
+<statement name="HANDLER">
+<block id="z.V)igY:0U-$j!t%/l0_" type="serial_writevalue">
+<value name="name">
+<shadow type="text">
+<field name="TEXT">left</field>
+</shadow>
+</value>
+<value name="value">
+<block type="device_get_analog_pin">
+<value name="name">
+<shadow type="analog_read_write_pin_shadow"/>
+<block type="analog_pin">
+<field name="pin">AnalogPin.P0</field>
+</block>
+</value>
+</block>
+</value>
+<next>
+<block id="=f0:cWG#tvYhl|qmbhkl" type="serial_writevalue">
+<value name="name">
+<shadow type="text">
+<field name="TEXT">centre</field>
+</shadow>
+</value>
+<value name="value">
+<block type="device_get_analog_pin">
+<value name="name">
+<shadow type="analog_read_write_pin_shadow"/>
+<block type="analog_pin">
+<field name="pin">AnalogPin.P1</field>
+</block>
+</value>
+</block>
+</value>
+<next>
+<block id="w$K5@Kqd$:J0B!C)leL_" type="serial_writevalue">
+<value name="name">
+<shadow type="text">
+<field name="TEXT">right</field>
+</shadow>
+</value>
+<value name="value">
+<block type="device_get_analog_pin">
+<value name="name">
+<shadow type="analog_read_write_pin_shadow"/>
+<block type="analog_pin">
+<field name="pin">AnalogPin.P2</field>
+</block>
+</value>
+</block>
+</value>
+<next>
+<block id="kQB|`5-$ZCDat!cfw2R^" type="device_pause">
+<value name="pause">
+<shadow type="timePicker">
+<field name="ms">100</field>
+</shadow>
+</value>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</statement>
+<comment pinned="false">Robot&#58; the standard kit uses three outputs of the five-channel array.&#10;No STELR EV helper is needed to read these analogue values.</comment>
+</block>
+</xml>
