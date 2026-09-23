@@ -55,4 +55,6 @@ See [upload instructions](UPLOAD_GUIDE.md), [validation results](docs/VALIDATION
 
 ## Licence
 
+This independently maintained STELR extension includes adapted pxt-motor code from DFRobot, retaining DFRobot's copyright and LGPL notice. GamePad V4 support is a new TypeScript implementation based on the documented hardware layout; the older pxt-gamePad native shim is not incorporated. Compatible product names identify hardware support, not DFRobot endorsement or certification. See THIRD_PARTY_NOTICES.md for DFRobot's clarification recorded on 24 September 2026, dated modifications and source availability.
+
 Distributed under LGPL-3.0-or-later. DFRobot notices are retained. See LICENSE.txt and its companion COPYING.txt. MakeCode gallery approval has not been requested or established.

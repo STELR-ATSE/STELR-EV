@@ -1,3 +1,6 @@
+// STELR EV modifications, 2026-09-22: namespace and toolbox grouping,
+// prefixed block IDs, and direction-parameter annotation correction.
+// Notice added 2026-09-24. Original DFRobot copyright/licence retained below.
 /*！
  * @file pxt-motor/main.ts
  * @brief DFRobot's microbit motor drive makecode library.
@@ -524,4 +527,3 @@ namespace stelrEV {
         }
     }
 }
-
